@@ -50,7 +50,7 @@ def make_parser():
         "--device",
         default="cpu",
         type=str,
-        help="device to run our model, can either be cpu or gpu",
+        help="device to run our model, can either be cpu or gpu or mps",
     )
     parser.add_argument("--conf", default=0.3, type=float, help="test conf")
     parser.add_argument("--nms", default=0.3, type=float, help="test nms threshold")
@@ -152,6 +152,8 @@ class Predictor(object):
             img = img.cuda()
             if self.fp16:
                 img = img.half()  # to FP16
+        elif self.device == "mps":
+            img = img.to(torch.device("mps"))
 
         with torch.no_grad():
             t0 = time.time()
@@ -272,6 +274,8 @@ def main(exp, args):
         model.cuda()
         if args.fp16:
             model.half()  # to FP16
+    elif args.device == "mps":
+        model.to(torch.device("mps"))
     model.eval()
 
     if not args.trt:
