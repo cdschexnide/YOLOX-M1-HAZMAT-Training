@@ -43,11 +43,23 @@ class Trainer:
         # training related attr
         self.max_epoch = exp.max_epoch
         self.amp_training = args.fp16
-        self.scaler = torch.cuda.amp.GradScaler(enabled=args.fp16)
+        
+        # Handle different device types (CUDA/MPS/CPU)
+        if torch.cuda.is_available():
+            self.scaler = torch.cuda.amp.GradScaler(enabled=args.fp16)
+            self.device = "cuda:{}".format(get_local_rank())
+        elif torch.backends.mps.is_available():
+            self.scaler = torch.cuda.amp.GradScaler(enabled=False)  # MPS doesn't support amp yet
+            self.device = "mps"
+            self.amp_training = False  # Disable amp for MPS
+        else:
+            self.scaler = torch.cuda.amp.GradScaler(enabled=False)
+            self.device = "cpu"
+            self.amp_training = False  # Disable amp for CPU
+            
         self.is_distributed = get_world_size() > 1
         self.rank = get_rank()
         self.local_rank = get_local_rank()
-        self.device = "cuda:{}".format(self.local_rank)
         self.use_model_ema = exp.ema
         self.save_history_ckpt = exp.save_history_ckpt
 
@@ -101,7 +113,12 @@ class Trainer:
         inps, targets = self.exp.preprocess(inps, targets, self.input_size)
         data_end_time = time.time()
 
-        with torch.cuda.amp.autocast(enabled=self.amp_training):
+        # Use appropriate autocast based on device
+        if self.device.startswith("cuda"):
+            with torch.cuda.amp.autocast(enabled=self.amp_training):
+                outputs = self.model(inps, targets)
+        else:
+            # For MPS and CPU, don't use autocast
             outputs = self.model(inps, targets)
 
         loss = outputs["total_loss"]
@@ -131,7 +148,10 @@ class Trainer:
         logger.info("exp value:\n{}".format(self.exp))
 
         # model related init
-        torch.cuda.set_device(self.local_rank)
+        # Only set CUDA device if CUDA is available
+        if torch.cuda.is_available():
+            torch.cuda.set_device(self.local_rank)
+            
         model = self.exp.get_model()
         logger.info(
             "Model Summary: {}".format(get_model_info(model, self.exp.test_size))
@@ -153,7 +173,7 @@ class Trainer:
             cache_img=self.args.cache,
         )
         logger.info("init prefetcher, this might take one minute or less...")
-        self.prefetcher = DataPrefetcher(self.train_loader)
+        self.prefetcher = DataPrefetcher(self.train_loader, self.device)
         # max_iter means iters per epoch
         self.max_iter = len(self.train_loader)
 
