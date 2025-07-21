@@ -13,6 +13,23 @@ datasets/
 # KDE directory preferences
 .directory
 
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+YOLOX_outputs/
+*.pth
+*.onnx
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
