@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image791_jpg.rf.e881d8d10a515a43b2d7a11e54c4cb8f.jpg</filename>
+	<path>image791_jpg.rf.e881d8d10a515a43b2d7a11e54c4cb8f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>radioactive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>378</xmin>
+			<xmax>483</xmax>
+			<ymin>452</ymin>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

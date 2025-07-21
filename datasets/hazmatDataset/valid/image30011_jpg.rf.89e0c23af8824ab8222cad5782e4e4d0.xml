@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image30011_jpg.rf.89e0c23af8824ab8222cad5782e4e4d0.jpg</filename>
+	<path>image30011_jpg.rf.89e0c23af8824ab8222cad5782e4e4d0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>336</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dangerous-when-wet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>215</xmax>
+			<ymin>78</ymin>
+			<ymax>156</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

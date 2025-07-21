@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image_1094_jpg.rf.fe9a61a72e16a39ea7ec2ee5a89f4f9b.jpg</filename>
+	<path>image_1094_jpg.rf.fe9a61a72e16a39ea7ec2ee5a89f4f9b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>485</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>non-flammable-gas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>54</xmin>
+			<xmax>366</xmax>
+			<ymin>458</ymin>
+			<ymax>751</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

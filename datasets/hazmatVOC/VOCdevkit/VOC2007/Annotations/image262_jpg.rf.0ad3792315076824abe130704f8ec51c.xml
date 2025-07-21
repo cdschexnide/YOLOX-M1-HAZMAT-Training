@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image262_jpg.rf.0ad3792315076824abe130704f8ec51c.jpg</filename>
+	<path>image262_jpg.rf.0ad3792315076824abe130704f8ec51c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>562</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>explosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>185</xmin>
+			<xmax>338</xmax>
+			<ymin>438</ymin>
+			<ymax>586</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

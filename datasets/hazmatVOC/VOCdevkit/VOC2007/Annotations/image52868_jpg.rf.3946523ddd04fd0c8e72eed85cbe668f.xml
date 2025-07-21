@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image52868_jpg.rf.3946523ddd04fd0c8e72eed85cbe668f.jpg</filename>
+	<path>image52868_jpg.rf.3946523ddd04fd0c8e72eed85cbe668f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>252</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>non-flammable-gas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>86</xmin>
+			<xmax>174</xmax>
+			<ymin>174</ymin>
+			<ymax>253</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

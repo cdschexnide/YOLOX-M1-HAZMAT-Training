@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20220523_16_22_18_Pro_jpg.rf.f34fabc3bf70304d731d23fe484818bf.jpg</filename>
+	<path>WIN_20220523_16_22_18_Pro_jpg.rf.f34fabc3bf70304d731d23fe484818bf.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>oxidizer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>992</xmin>
+			<xmax>1352</xmax>
+			<ymin>7</ymin>
+			<ymax>339</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>explosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>304</xmin>
+			<xmax>686</xmax>
+			<ymin>702</ymin>
+			<ymax>1020</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20230108_21_49_26_Pro_jpg.rf.0804143275f4e3cb2dcb9d85f7a6daba.jpg</filename>
+	<path>WIN_20230108_21_49_26_Pro_jpg.rf.0804143275f4e3cb2dcb9d85f7a6daba.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>non-flammable-gas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>286</xmin>
+			<xmax>493</xmax>
+			<ymin>148</ymin>
+			<ymax>362</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>organic-peroxide</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>664</xmin>
+			<xmax>894</xmax>
+			<ymin>204</ymin>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

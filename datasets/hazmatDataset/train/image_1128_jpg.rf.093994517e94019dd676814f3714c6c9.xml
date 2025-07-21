@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image_1128_jpg.rf.093994517e94019dd676814f3714c6c9.jpg</filename>
+	<path>image_1128_jpg.rf.093994517e94019dd676814f3714c6c9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>252</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flammable</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>234</xmax>
+			<ymin>129</ymin>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

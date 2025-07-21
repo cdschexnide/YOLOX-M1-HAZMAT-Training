@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>CR-1_png.rf.df30347619cd41282502ad55a8d74737.jpg</filename>
+	<path>CR-1_png.rf.df30347619cd41282502ad55a8d74737.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>669</width>
+		<height>670</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>corrosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>670</xmax>
+			<ymin>1</ymin>
+			<ymax>671</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

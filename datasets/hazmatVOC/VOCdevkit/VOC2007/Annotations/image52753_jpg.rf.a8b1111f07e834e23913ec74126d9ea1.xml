@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image52753_jpg.rf.a8b1111f07e834e23913ec74126d9ea1.jpg</filename>
+	<path>image52753_jpg.rf.a8b1111f07e834e23913ec74126d9ea1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>388</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>corrosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>161</xmin>
+			<xmax>219</xmax>
+			<ymin>117</ymin>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>corrosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>189</xmin>
+			<xmax>246</xmax>
+			<ymin>31</ymin>
+			<ymax>81</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

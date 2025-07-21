@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20220512_20_33_16_Pro_jpg.rf.aef13dae9a75b57ee540bf0544c30b91.jpg</filename>
+	<path>WIN_20220512_20_33_16_Pro_jpg.rf.aef13dae9a75b57ee540bf0544c30b91.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<metadata>
+	</metadata>
+</annotation>

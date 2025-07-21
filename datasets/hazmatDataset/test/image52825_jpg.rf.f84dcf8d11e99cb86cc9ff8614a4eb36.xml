@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image52825_jpg.rf.f84dcf8d11e99cb86cc9ff8614a4eb36.jpg</filename>
+	<path>image52825_jpg.rf.f84dcf8d11e99cb86cc9ff8614a4eb36.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>485</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>corrosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>30</xmin>
+			<xmax>435</xmax>
+			<ymin>362</ymin>
+			<ymax>759</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

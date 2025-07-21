@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image782_jpg.rf.4849402d5bf8c6988e409823a7181ccb.jpg</filename>
+	<path>image782_jpg.rf.4849402d5bf8c6988e409823a7181ccb.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>749</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>organic-peroxide</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>262</xmin>
+			<xmax>495</xmax>
+			<ymin>471</ymin>
+			<ymax>737</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

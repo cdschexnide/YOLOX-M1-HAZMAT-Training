@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>10_jpg.rf.3acf1734e15fdb69fac4a6f544b37ea0.jpg</filename>
+	<path>10_jpg.rf.3acf1734e15fdb69fac4a6f544b37ea0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flammable-solid</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>576</xmin>
+			<xmax>825</xmax>
+			<ymin>304</ymin>
+			<ymax>569</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image_1025_jpg.rf.924ce10eff268ecdbc5dd6b5ecaac2d1.jpg</filename>
+	<path>image_1025_jpg.rf.924ce10eff268ecdbc5dd6b5ecaac2d1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dangerous-when-wet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>231</xmin>
+			<xmax>450</xmax>
+			<ymin>384</ymin>
+			<ymax>631</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

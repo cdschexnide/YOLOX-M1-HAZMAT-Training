@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image_1184_jpg.rf.f56633e1dc8658da293294366f51ec9b.jpg</filename>
+	<path>image_1184_jpg.rf.f56633e1dc8658da293294366f51ec9b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>252</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<metadata>
+	</metadata>
+</annotation>

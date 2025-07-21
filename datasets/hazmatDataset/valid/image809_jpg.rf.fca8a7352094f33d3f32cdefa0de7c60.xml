@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image809_jpg.rf.fca8a7352094f33d3f32cdefa0de7c60.jpg</filename>
+	<path>image809_jpg.rf.fca8a7352094f33d3f32cdefa0de7c60.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>336</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spontaneously-combustible</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>30</xmin>
+			<xmax>449</xmax>
+			<ymin>13</ymin>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

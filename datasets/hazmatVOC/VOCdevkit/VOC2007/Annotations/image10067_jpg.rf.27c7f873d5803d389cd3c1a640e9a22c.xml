@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image10067_jpg.rf.27c7f873d5803d389cd3c1a640e9a22c.jpg</filename>
+	<path>image10067_jpg.rf.27c7f873d5803d389cd3c1a640e9a22c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>388</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>poison</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>228</xmin>
+			<xmax>358</xmax>
+			<ymin>173</ymin>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

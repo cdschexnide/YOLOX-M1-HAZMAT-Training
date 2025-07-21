@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>11_jpg.rf.f9c116561bf12728478378c00e4fcf7a.jpg</filename>
+	<path>11_jpg.rf.f9c116561bf12728478378c00e4fcf7a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>poison</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>635</xmin>
+			<xmax>702</xmax>
+			<ymin>445</ymin>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

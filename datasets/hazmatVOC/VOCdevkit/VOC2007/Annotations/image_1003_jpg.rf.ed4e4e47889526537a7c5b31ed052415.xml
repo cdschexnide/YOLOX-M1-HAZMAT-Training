@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image_1003_jpg.rf.ed4e4e47889526537a7c5b31ed052415.jpg</filename>
+	<path>image_1003_jpg.rf.ed4e4e47889526537a7c5b31ed052415.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>radioactive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>378</xmin>
+			<xmax>483</xmax>
+			<ymin>452</ymin>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

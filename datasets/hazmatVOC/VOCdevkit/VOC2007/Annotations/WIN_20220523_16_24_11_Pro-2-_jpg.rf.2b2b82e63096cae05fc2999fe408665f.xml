@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20220523_16_24_11_Pro-2-_jpg.rf.2b2b82e63096cae05fc2999fe408665f.jpg</filename>
+	<path>WIN_20220523_16_24_11_Pro-2-_jpg.rf.2b2b82e63096cae05fc2999fe408665f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>organic-peroxide</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1264</xmin>
+			<xmax>1716</xmax>
+			<ymin>1</ymin>
+			<ymax>403</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>poison</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>482</xmin>
+			<xmax>850</xmax>
+			<ymin>557</ymin>
+			<ymax>930</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

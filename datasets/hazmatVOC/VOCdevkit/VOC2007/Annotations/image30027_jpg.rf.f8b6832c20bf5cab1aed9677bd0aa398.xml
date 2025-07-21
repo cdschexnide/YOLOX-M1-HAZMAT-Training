@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image30027_jpg.rf.f8b6832c20bf5cab1aed9677bd0aa398.jpg</filename>
+	<path>image30027_jpg.rf.f8b6832c20bf5cab1aed9677bd0aa398.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>oxidizer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>93</xmin>
+			<xmax>182</xmax>
+			<ymin>239</ymin>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

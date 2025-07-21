@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image232_jpg.rf.28b440fd7cd912a143402a8de1f5c72a.jpg</filename>
+	<path>image232_jpg.rf.28b440fd7cd912a143402a8de1f5c72a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>485</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>infectious-substance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>133</xmin>
+			<xmax>420</xmax>
+			<ymin>197</ymin>
+			<ymax>519</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image974_jpg.rf.4e205183b5e2100b7aee64ec7ad1278a.jpg</filename>
+	<path>image974_jpg.rf.4e205183b5e2100b7aee64ec7ad1278a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dangerous-when-wet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>433</xmin>
+			<xmax>536</xmax>
+			<ymin>351</ymin>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

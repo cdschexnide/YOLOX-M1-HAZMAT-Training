@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image862_jpg.rf.17ba997925448d69387c4148731ce9c3.jpg</filename>
+	<path>image862_jpg.rf.17ba997925448d69387c4148731ce9c3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>336</width>
+		<height>448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>organic-peroxide</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>127</xmin>
+			<xmax>224</xmax>
+			<ymin>42</ymin>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image674_jpg.rf.feea5e82701e04d640b62147c722d61d.jpg</filename>
+	<path>image674_jpg.rf.feea5e82701e04d640b62147c722d61d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>485</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>infectious-substance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>455</xmin>
+			<xmax>672</xmax>
+			<ymin>232</ymin>
+			<ymax>402</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

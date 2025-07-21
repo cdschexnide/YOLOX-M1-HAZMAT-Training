@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>CB-1r_png.rf.c0b409a7927114548475a1d062c939ab.jpg</filename>
+	<path>CB-1r_png.rf.c0b409a7927114548475a1d062c939ab.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>572</width>
+		<height>570</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spontaneously-combustible</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>573</xmax>
+			<ymin>1</ymin>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

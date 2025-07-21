@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>image457_jpg.rf.581f6c928d98bc1a195066cecf3c675d.jpg</filename>
+	<path>image457_jpg.rf.581f6c928d98bc1a195066cecf3c675d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spontaneously-combustible</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>174</xmin>
+			<xmax>248</xmax>
+			<ymin>210</ymin>
+			<ymax>283</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

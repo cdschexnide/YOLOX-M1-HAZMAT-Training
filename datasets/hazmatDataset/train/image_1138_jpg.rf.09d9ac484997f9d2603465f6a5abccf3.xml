@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image_1138_jpg.rf.09d9ac484997f9d2603465f6a5abccf3.jpg</filename>
+	<path>image_1138_jpg.rf.09d9ac484997f9d2603465f6a5abccf3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>485</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>radioactive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>41</xmin>
+			<xmax>451</xmax>
+			<ymin>354</ymin>
+			<ymax>728</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

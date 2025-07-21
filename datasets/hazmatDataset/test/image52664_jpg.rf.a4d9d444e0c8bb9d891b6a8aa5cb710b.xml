@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image52664_jpg.rf.a4d9d444e0c8bb9d891b6a8aa5cb710b.jpg</filename>
+	<path>image52664_jpg.rf.a4d9d444e0c8bb9d891b6a8aa5cb710b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flammable-solid</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>434</xmin>
+			<xmax>600</xmax>
+			<ymin>248</ymin>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20220523_16_23_50_Pro-2-_jpg.rf.20f8c32d1278f0e006882e5506a00d62.jpg</filename>
+	<path>WIN_20220523_16_23_50_Pro-2-_jpg.rf.20f8c32d1278f0e006882e5506a00d62.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>poison</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1207</xmin>
+			<xmax>1614</xmax>
+			<ymin>86</ymin>
+			<ymax>491</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flammable-solid</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>434</xmin>
+			<xmax>786</xmax>
+			<ymin>664</ymin>
+			<ymax>1038</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

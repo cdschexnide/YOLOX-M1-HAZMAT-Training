@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>WIN_20220523_16_23_07_Pro-2-_jpg.rf.2ef3ccefe4147e81b9dc05e3de08f29b.jpg</filename>
+	<path>WIN_20220523_16_23_07_Pro-2-_jpg.rf.2ef3ccefe4147e81b9dc05e3de08f29b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>non-flammable-gas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1200</xmin>
+			<xmax>1626</xmax>
+			<ymin>1</ymin>
+			<ymax>327</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>spontaneously-combustible</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>452</xmin>
+			<xmax>839</xmax>
+			<ymin>547</ymin>
+			<ymax>907</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

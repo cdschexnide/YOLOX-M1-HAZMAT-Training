@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image76_jpg.rf.b5dde96ab0465e763dfbfdb3998962ba.jpg</filename>
+	<path>image76_jpg.rf.b5dde96ab0465e763dfbfdb3998962ba.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>oxidizer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>294</xmin>
+			<xmax>630</xmax>
+			<ymin>252</ymin>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

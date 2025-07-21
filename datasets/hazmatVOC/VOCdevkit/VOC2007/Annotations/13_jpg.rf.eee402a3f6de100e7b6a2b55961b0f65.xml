@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>13_jpg.rf.eee402a3f6de100e7b6a2b55961b0f65.jpg</filename>
+	<path>13_jpg.rf.eee402a3f6de100e7b6a2b55961b0f65.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>radioactive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>623</xmin>
+			<xmax>687</xmax>
+			<ymin>547</ymin>
+			<ymax>606</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>non-flammable-gas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>603</xmin>
+			<xmax>698</xmax>
+			<ymin>429</ymin>
+			<ymax>518</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

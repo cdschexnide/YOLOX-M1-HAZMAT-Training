@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>image30012_jpg.rf.1f731669ae125945816872f6ce9534c5.jpg</filename>
+	<path>image30012_jpg.rf.1f731669ae125945816872f6ce9534c5.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>388</width>
+		<height>520</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>explosive</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>98</xmin>
+			<xmax>198</xmax>
+			<ymin>171</ymin>
+			<ymax>285</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>
